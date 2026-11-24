@@ -20,6 +20,6 @@
 		<TextBlock x:Name="StatusText" />
         <!-- TODO Exercise 3: the search box -->
 		<TextBox x:Name="SearchBox" PlaceholderText="Search" Width="200" 
-				 HowizontalAlignment="Left" TextChanged="SearchBox_TextChanged" />
+				 HorizontalAlignment="Left" TextChanged="SearchBox_TextChanged" />
     </StackPanel>
 </Window>
