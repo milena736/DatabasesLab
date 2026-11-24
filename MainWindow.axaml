@@ -7,7 +7,19 @@
         <TextBlock Text="Lost and Found" FontSize="24" FontWeight="Bold" />
 
         <!-- TODO Part C (demo): the boxes, the Add button, the list, the Claim button, and the two TextBlocks -->
-
+		<StackPanel Orientation="Horizontal" Spacing="8">
+			<TextBox x:Name="DescriptionBox" PlaceholderText="What was found" Width="180" />
+			<TextBox x:Name="LocationBox" PlaceholderText="Where" Width="140" />
+			<Button x:Name="AddButton" Content="Add item" Click="AddButton_Click" />
+		</StackPanel>
+		<ListBox x:Name="ItemsList" Height="200" />
+		<StackPanel Orientation="Horizontal" Spacing="12">
+			<Button x:Name="ClaimButton" Content="Claim selected" Click="ClaimButton_Click" />
+			<TextBlock x:Name="CountText" VerticalAlignment="Center" />
+		</StackPanel>
+		<TextBlock x:Name="StatusText" />
         <!-- TODO Exercise 3: the search box -->
+		<TextBox x:Name="SearchBox" PlaceholderText="Search" Width="200" 
+				 HowizontalAlignment="Left" TextChanged="SearchBox_TextChanged" />
     </StackPanel>
 </Window>
