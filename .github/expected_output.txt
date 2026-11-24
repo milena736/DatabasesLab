@@ -1,0 +1,53 @@
+=== CSCI 1260 DATABASES LAB ===
+
+Part A: save it
+  Create the table:               items (id, description, location)
+  Create it again:                ok
+  Add water bottle, Library:      #1 water bottle (Library)
+  Add Mom's keys, Culp Center:    #2 Mom's keys (Culp Center)
+  Add a blank description:        refused: Description is required.
+  Rows in the file:               2
+  Claim #2:                       True
+  Claim #2 again:                 False
+  Add calculator, Lamb Hall:      #3 calculator (Lamb Hall)
+  Rows in the file:               2
+
+Part B: read it back
+  All items:
+    #1 water bottle (Library)
+    #2 Mom's keys (Culp Center)
+    #3 umbrella (Library)
+    #4 calculator (Lamb Hall)
+  Count:                          4
+  Search "library":
+    #1 water bottle (Library)
+    #3 umbrella (Library)
+  Search "KEYS":
+    #2 Mom's keys (Culp Center)
+  Search "' OR 1=1 --":           (none)
+  Search "":                      4 items
+
+Part C: show it
+  Window opens with:
+    #1 water bottle (Library)
+    #2 Mom's keys (Culp Center)
+    #3 umbrella (Library)
+  Count text:                     Waiting to be claimed: 3
+  Add calculator, Lamb Hall:      Added: #4 calculator (Lamb Hall)
+  Boxes after Add:                (blank) (blank)
+  Rows in the list after Add:     4
+  Add with a blank location:      Location is required.
+  Claim with nothing selected:    Select an item to claim.
+  Select #2, click Claim:         Claimed: #2 Mom's keys (Culp Center)
+  Close and reopen the window:
+    #1 water bottle (Library)
+    #3 umbrella (Library)
+    #4 calculator (Lamb Hall)
+  First desk claims #1:           Claimed: #1 water bottle (Library)
+  Second desk claims #1 too:      That item was already claimed.
+  Second desk count text:         Waiting to be claimed: 2
+  Search box "lamb":
+    #4 calculator (Lamb Hall)
+  Search box cleared:
+    #3 umbrella (Library)
+    #4 calculator (Lamb Hall)

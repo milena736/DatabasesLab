@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="DatabasesLab.MainWindow"
+        Title="Lost and Found" Width="560" Height="480">
+
+    <StackPanel Margin="16" Spacing="10">
+        <TextBlock Text="Lost and Found" FontSize="24" FontWeight="Bold" />
+
+        <!-- TODO Part C (demo): the boxes, the Add button, the list, the Claim button, and the two TextBlocks -->
+
+        <!-- TODO Exercise 3: the search box -->
+    </StackPanel>
+</Window>

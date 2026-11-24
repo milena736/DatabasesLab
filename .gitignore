@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# Database files are data, not code. They stay on your machine.
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Editor folders
+.vs/
+.idea/
+.vscode/
+*.user
